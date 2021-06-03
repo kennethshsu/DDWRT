@@ -19,7 +19,7 @@ The router that I am using is **Netgear R7000P**, running **DD-WRT v3.0-r46069 s
 
 ## Updating Adhost Lists
 
-Replace your ad hostlist under this line:
+Replace your prefered ad hosts list under this line:
 
 ```bash
 curl -k -o /jffs/adhosts.txt https://winhelp2002.mvps.org/hosts.txt
