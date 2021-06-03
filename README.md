@@ -34,11 +34,19 @@ grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/adhosts2.txt" >> /tm
 ```
 
 ## Changing Refresh Intervals
-Cron job is customisizble
+Cron job is customisizble:
 
  1. Learn about the cron interval setup, or use https://crontab.guru.
  2. Paste in the 5 time variables under Additional Cron Jobs.
  3. For example, ```0 * * * * root /bin/sh /tmp/.rc_startup``` runs the job at the top of every hour.
+
+## Are Ads Coming Through?
+Check your log:
+ 1. Navigate: Status > Syslog
+ 2. Look for ``` --- www.googleadservices.com ping statistics --- ``` 
+ 3. If the IP pinged is not 0.0.0.0, 127.0.0.1, or something similar, ads are not currently being blocked.
+
+Remember, this method of adblock only work for DNS based adblocking. If an ad is served on a non-known ad server, it will come through.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
