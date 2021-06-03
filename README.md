@@ -58,7 +58,7 @@ PING www.googleadservices.com (0.0.0.0): 56 data bytes
 ```
  4. If the IP pinged is not 127.0.0.1, 0.0.0.0, or something similar, ads are not currently being blocked.
 
-Remember, this method of adblock only work for DNS based adblocking. If an ad is served on a non-known ad server, it will come through.
+Remember, this method of adblock only work for blocking DNS-based ads. If an ad is served on a non-known ad server, it will come through.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
