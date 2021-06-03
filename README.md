@@ -11,7 +11,7 @@ The router that I am using is **Netgear R7000P**, running **DD-WRT v3.0-r46069 s
     
  2. Go to your router's landing page (usually [192.168.1.1](http://192.168.1.1/)). 
     
- 3. Navigate: Administration > Commands Paste in the script.sh script in the Command Shell, and click Save Startup.
+ 3. Navigate: Administration > Commands Paste in the [script.sh](https://github.com/kennethshsu/DDWRT/blob/master/script.sh) script in the Command Shell, and click Save Startup.
     
  4. Navigate: Administration > Management > Cron.
  5. Enable Cron.
