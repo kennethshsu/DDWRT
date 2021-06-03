@@ -1,8 +1,8 @@
 
 # DD-WRT Router Script
-This script allows routers running DD-WRT firmwares to block ads network-wide. It also tracks and updates the host list(s) periodically through a cron job, as well as disable those annoying LED lights.
+This script allows routers running DD-WRT firmwares to block ads network-wide. It also tracks and updates the host list(s) periodically through a cron job, as well as disables those annoying LED lights.
 
-The router that I am using is **Netgear R7000P**, running **DD-WRT v3.0-r46069 std (03/17/21)** build. 
+The router that I am using is **Netgear R7000P**, running the **DD-WRT v3.0-r46069 std (03/17/21)** build. 
 
 ## Setup
 
