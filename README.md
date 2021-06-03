@@ -46,7 +46,7 @@ Check your log:
  2. Look for ``` --- www.googleadservices.com ping statistics --- ``` 
  3. Hopfully the result is something like
 ```
---- www.google.com ping statistics ---
+--- www.googleadservices.com statistics ---
 5 packets transmitted, 5 packets received, 0% packet loss
 round-trip min/avg/max = 7.292/7.324/7.384 ms
 PING www.googleadservices.com (0.0.0.0): 56 data bytes
