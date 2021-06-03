@@ -7,7 +7,7 @@ The router that I am using is **Netgear R7000P**, running **DD-WRT v3.0-r46069 s
 ## Setup
 
  1. The router must already be running the compatible [DD-WRT
-    firmware](https://dd-wrt.com). 
+    firmware](https://dd-wrt.com). [Here](https://wiki.dd-wrt.com/wiki/index.php/Supported_Devices) is a list of compatible routers.
     
  2. Go to your router's landing page (usualy [192.168.1.1](http://192.168.1.1/)). 
     
