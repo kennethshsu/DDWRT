@@ -63,4 +63,4 @@ PING www.googleadservices.com (0.0.0.0): 56 data bytes
 Remember, this method of adblock only work for blocking DNS-based ads. If an ad is served on a non-known ad server, it will come through.
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](https://github.com/kennethshsu/DDWRT/blob/master/LICENSE.md)
