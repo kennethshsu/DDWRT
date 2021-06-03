@@ -9,10 +9,10 @@ echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" | tee -a /var/log/messages
 
 ## LED lights control
 echo "%%%%% Running LEDs script" | tee -a /var/log/messages
-for i in 2 3 8 9 10; do gpio enable $i ; done 
-for i in 11 12 13; do gpio disable $i ; done 
-et robowr 0x0 0x18 0x1ff 
-et robowr 0x0 0x18 0x0 
+for i in 2 3 8 9 10; do gpio enable $i ; done
+for i in 11 12 13; do gpio disable $i ; done
+et robowr 0x0 0x18 0x1ff
+et robowr 0x0 0x18 0x0
 et robowr 0x0 0x1a 0x0
 
 ## Ads blocking
