@@ -9,7 +9,7 @@ The router that I am using is **Netgear R7000P**, running **DD-WRT v3.0-r46069 s
  1. The router must already be running the compatible [DD-WRT
     firmware](https://dd-wrt.com). [Here](https://wiki.dd-wrt.com/wiki/index.php/Supported_Devices) is a list of compatible routers.
     
- 2. Go to your router's landing page (usualy [192.168.1.1](http://192.168.1.1/)). 
+ 2. Go to your router's landing page (usually [192.168.1.1](http://192.168.1.1/)). 
     
  3. Navigate: Administration > Commands Paste in the script.sh script in the Command Shell, and click Save Startup.
     
@@ -32,6 +32,8 @@ curl -k -o /jffs/adhosts2.txt https://adhost2.com/hosts.txt
 grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/adhosts1.txt" >> /tmp/dnsmasq.conf
 grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/adhosts2.txt" >> /tmp/dnsmasq.conf
 ```
+
+There is a [list](https://github.com/StevenBlack/hosts) of well known host lists consolidated by Steven that you can try.
 
 ## Changing Refresh Intervals
 Cron job is customisizble:
