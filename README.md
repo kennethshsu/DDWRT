@@ -44,7 +44,19 @@ Cron job is customisizble:
 Check your log:
  1. Navigate: Status > Syslog
  2. Look for ``` --- www.googleadservices.com ping statistics --- ``` 
- 3. If the IP pinged is not 0.0.0.0, 127.0.0.1, or something similar, ads are not currently being blocked.
+ 3. Hopfully the result is something like
+```
+--- www.google.com ping statistics ---
+5 packets transmitted, 5 packets received, 0% packet loss
+round-trip min/avg/max = 7.292/7.324/7.384 ms
+PING www.googleadservices.com (0.0.0.0): 56 data bytes
+64 bytes from 127.0.0.1: seq=0 ttl=64 time=0.260 ms
+64 bytes from 127.0.0.1: seq=1 ttl=64 time=0.317 ms
+64 bytes from 127.0.0.1: seq=2 ttl=64 time=0.240 ms
+64 bytes from 127.0.0.1: seq=3 ttl=64 time=0.257 ms
+64 bytes from 127.0.0.1: seq=4 ttl=64 time=0.250 ms
+```
+ 4. If the IP pinged is not 127.0.0.1, 0.0.0.0, or something similar, ads are not currently being blocked.
 
 Remember, this method of adblock only work for DNS based adblocking. If an ad is served on a non-known ad server, it will come through.
 
