@@ -18,10 +18,10 @@ et robowr 0x0 0x1a 0x0
 ## Ads blocking
 echo "%%%%% Running ads blocking script" | tee -a /var/log/messages
 rm /jffs/ads
-curl -k -o /jffs/ads/adhosts.txt https://winhelp2002.mvps.org/hosts.txt
-grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/ads/adhosts.txt" >> /tmp/dnsmasq.conf
-curl -k -o /jffs/ads/adhosts.txt https://winhelp2002.mvps.org/hosts.txt
-grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/ads/adhosts.txt" >> /tmp/dnsmasq.conf
+curl -k -o /jffs/ads/mvps.txt https://winhelp2002.mvps.org/hosts.txt
+grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/ads/mvps.txt" >> /tmp/dnsmasq.conf
+curl -k -o /jffs/ads/my_hosts.txt https://raw.githubusercontent.com/kennethshsu/DDWRT/master/my_hosts.txt
+grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/ads/my_hosts.txt" >> /tmp/dnsmasq.conf
 killall dnsmasq
 dnsmasq --conf-file=/tmp/dnsmasq.conf
 
