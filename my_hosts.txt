@@ -1,0 +1,21 @@
+# Additional host lists
+
+127.0.0.1 localhost
+
+::1 localhost #[IPv6]
+
+# Roku
+0.0.0.0 amoeba.web.roku.com
+0.0.0.0 assets.sr.roku.com
+0.0.0.0 cloudservices.roku.com
+0.0.0.0 prod.mobile.roku.com
+0.0.0.0 wwwimg.roku.com
+0.0.0.0 amoeba-plus.web.roku.com
+0.0.0.0 display.ravm.tv
+0.0.0.0 liberty.logs.roku.com
+0.0.0.0 ravm.tv
+0.0.0.0 scribe.logs.roku.com
+0.0.0.0 track.sr.roku.com
+
+
+# End of list
