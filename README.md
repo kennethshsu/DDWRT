@@ -16,6 +16,7 @@ The router that I am using is **Netgear R7000P**, running the **DD-WRT v3.0-r460
  4. Navigate: Administration > Management > Cron.
  5. Enable Cron.
  6. Paste in ```0 * * * * root /bin/sh /tmp/.rc_startup```.
+ 7. To manually execute the script, paste `/tmp/.rc_startup` in Administration > Commands > Run Commands
 
 ## Updating Adhost Lists
 
