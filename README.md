@@ -58,7 +58,7 @@ PING www.googleadservices.com (0.0.0.0): 56 data bytes
 64 bytes from 127.0.0.1: seq=3 ttl=64 time=0.257 ms
 64 bytes from 127.0.0.1: seq=4 ttl=64 time=0.250 ms
 ```
- 4. If the IP pinged is not 127.0.0.1, 0.0.0.0, or something similar, ads are not currently being blocked.
+ 4. If the IP pinged is not `127.0.0.1`, `0.0.0.0`, or something similar, ads are not currently being blocked.
 
 Remember, this method of adblock only work for blocking DNS-based ads. If an ad is served on a non-known ad server, it will come through.
 
