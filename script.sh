@@ -21,10 +21,10 @@ rm -r /tmp/adhosts
 mkdir /tmp/adhosts
 
 (cd /tmp/adhosts && curl -o mvps.txt https://winhelp2002.mvps.org/hosts.txt)
-grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/tmp/adhosts/mvps.txt" >> /tmp/dnsmasq.conf
+echo "addn-hosts=/tmp/adhosts/mvps.txt" >> /tmp/dnsmasq.conf
 
 (cd /tmp/adhosts && curl -o my_hosts.txt https://raw.githubusercontent.com/kennethshsu/DDWRT/master/my_hosts.txt)
-grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/tmp/adhosts/my_hosts.txt" >> /tmp/dnsmasq.conf
+echo "addn-hosts=/tmp/adhosts/my_hosts.txt" >> /tmp/dnsmasq.conf
 
 killall dnsmasq
 dnsmasq --conf-file=/tmp/dnsmasq.conf
