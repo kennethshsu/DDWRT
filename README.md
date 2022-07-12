@@ -30,8 +30,8 @@ If you have multiple host lists:
 ```bash
 curl -k -o /jffs/adhosts1.txt https://adhost1.com/hosts.txt
 curl -k -o /jffs/adhosts2.txt https://adhost2.com/hosts.txt
-grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/adhosts1.txt" >> /tmp/dnsmasq.conf
-grep addn-hosts /tmp/dnsmasq.conf || echo "addn-hosts=/jffs/adhosts2.txt" >> /tmp/dnsmasq.conf
+echo "addn-hosts=/jffs/adhosts1.txt" >> /tmp/dnsmasq.conf
+echo "addn-hosts=/jffs/adhosts2.txt" >> /tmp/dnsmasq.conf
 ```
 
 There is a [list](https://github.com/StevenBlack/hosts) of well known host lists consolidated by Steven that you can try.
