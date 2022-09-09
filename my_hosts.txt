@@ -17,5 +17,9 @@
 0.0.0.0 scribe.logs.roku.com
 0.0.0.0 track.sr.roku.com
 
+# Google TV
+0.0.0.0 androidtvwatsonfe-pa.googleapis.com
+0.0.0.0 androidtvchannels-pa.googleapis.com
+
 
 # End of list
